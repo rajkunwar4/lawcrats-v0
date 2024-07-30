@@ -2,6 +2,7 @@
 
 import Belief from "@/components/Belief";
 import { BackgroundBeamsDemo } from "@/components/DemoBgBeams";
+import Features from "@/components/Features";
 import { FloatingNavDemo } from "@/components/FloatNav";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -15,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Belief />
-    
+      <Features />
     </main>
   );
 }

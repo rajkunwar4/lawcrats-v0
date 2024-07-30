@@ -1,5 +1,5 @@
 import React from "react";
-import { IconGavel } from "@tabler/icons-react";
+import { IconArrowDownRight, IconGavel } from "@tabler/icons-react";
 import { BackgroundBeamsDemo } from "./DemoBgBeams";
 import { BackgroundBeams } from "./ui/background-beams";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
@@ -23,7 +23,7 @@ const Belief = () => {
         </p>
       </div>
       <div className="flex flex-col items-center gap-10 ">
-        <HoverBorderGradient>Product</HoverBorderGradient>
+        <HoverBorderGradient>Product <IconArrowDownRight className="inline" width={20}/> </HoverBorderGradient>
         <img
           src="./ss.png"
           alt=""

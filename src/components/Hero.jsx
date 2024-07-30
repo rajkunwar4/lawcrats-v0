@@ -55,7 +55,7 @@ function Hero() {
           </div>
         </div>
         <div>
-          <div className="bg-[#F4F3F0] rounded-b-lg px-12 py-3 flex flex-col items-center text-lg">
+          <div className="bg-[#F4F3F0] rounded-b-lg p-3 flex flex-col items-center">
             <p className="tracking-tight">
               Our mission is to deliver unparalleled legal solutions through a
               seamless integration of traditional legal acumen and modern
