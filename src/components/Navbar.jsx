@@ -4,7 +4,7 @@ import { IconArrowUpRight } from "@tabler/icons-react";
 
 const Navbar = () => {
   return (
-    <nav className="px-5 py-3 flex justify-between items-center tracking-tight text-[#56575A] sticky top-4 backdrop-blur-sm  max-w-5xl   sm:mx-auto bg-[#F4F3F0]/60 rounded-full z-100">
+    <nav className="px-5 py-3 flex justify-between items-center tracking-tight text-[#56575A] sticky top-4 backdrop-blur-sm  max-w-5xl   sm:mx-auto bg-[#F4F3F0]/70 rounded-full z-100">
       <div className="z-[100]">
         <img
           src="./lawcratslogo.png"
